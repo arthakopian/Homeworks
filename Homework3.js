@@ -34,7 +34,7 @@
             }
             for (let i = 0; i < numStr.length-1; i++) {
                 if (countOfZeros<=1) {
-                    return num
+                    return “Nothing to remove”
                 }else if (numStr[i]!=0) {
                     numWithoutZero+=numStr[i] 
                 }
@@ -56,7 +56,7 @@
             let i = 0
             while ( i < numStr.length-1) {
                 if (countOfZeros<=1) {
-                    return num
+                    return “Nothing to remove”
                 }else if (numStr[i]!=0) {
                     numWithoutZero+=numStr[i] 
                 }
